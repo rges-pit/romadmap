@@ -1,0 +1,2 @@
+# RoMADMAP: lens mass and distance pipeline (Roman Microlensing Mass And Distance MAP)
+For each Roman GBTDS microlensing event, RoMADMAP collects every observable related to the lens mass and distance. It works out which measurement paths those inputs make possible (MADMAP graph), then combines the available key observables (theta_E, pi_E, F_L, and optionally a Galactic prior) in a Bayesian fit with pyLIMASS. The result is posterior distributions of the lens mass M_L and distance D_L.
